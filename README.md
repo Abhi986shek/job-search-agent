@@ -35,8 +35,6 @@ These rules are built into the code. Changing them is a deliberate decision, not
 
 - The agent never approves CV changes, generates CV files, reveals Apollo emails, connects Gmail, or sends email.
   These are buttons you click.
-- No scraping of job portals (Naukri, Glassdoor, Indeed and similar). Their listings come only through search APIs or
-  links you save yourself. Saved links are stored, never fetched.
 - No LinkedIn automation: no direct messages, connection requests or Easy Apply. Drafts only.
 - Profiles, CVs and drafts use only facts from your own inputs. Nothing is invented.
 - Secrets live only in `.env` files and are never printed or logged.
